@@ -1,13 +1,13 @@
 <script lang="ts">
-import { RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue'
+import { RouterView } from "vue-router";
+import NavBar from "./components/NavBar.vue";
 
 export default {
   components: {
     NavBar,
     RouterView,
   },
-}
+};
 </script>
 
 <template>
@@ -16,7 +16,10 @@ export default {
       <NavBar />
     </header>
 
-    <div id="content" class="px-4 py-20 bg-gradient-to-b from-red-700 to-red-900 flex-1 text-white">
+    <div
+      id="content"
+      class="px-4 py-20 bg-gradient-to-b from-red-700 to-red-900 flex-1 text-white"
+    >
       <RouterView />
     </div>
 
@@ -28,6 +31,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
