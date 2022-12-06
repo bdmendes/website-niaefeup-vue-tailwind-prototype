@@ -8,10 +8,10 @@
       :key="project.objectId"
     >
     <div class="flex justify-center">
-        <img class="project_image rounded-t-lg h-1/2 w-1/4" :src="project.imageURL" />
+        <img class="project_image rounded-t-lg h-1/2 w-1/4 pt-10" :src="project.imageURL" />
     </div>
       <div
-        class="project__description mb-3 font-normal text-gray-700 dark:text-gray-400"
+        class="project__description mb-3 font-normal text-gray-700 dark:text-gray-400 pt-10"
       >
         <p>{{ project.description }}</p>
       </div>
@@ -22,7 +22,7 @@
       :key="project.objectId"
     >
       <div class="flex justify-center">
-        <img class="project_image rounded-t-lg w-1/2" :src="project.imageURL" />
+        <img class="project_image rounded-t-lg w-1/2 pt-5" :src="project.imageURL" />
       </div>
       <div
         class="project__description mb-3 font-normal text-gray-700 dark:text-gray-400"
@@ -36,7 +36,7 @@
       :key="project.objectId"
     >
         <div class="flex justify-center">
-          <img class="project_image rounded-t-lg w-1/2" :src="project.imageURL" />
+        <img class="project_image rounded-t-lg w-1/2 pt-5" :src="project.imageURL" />
         </div>
       <div
         class="project__description mb-3 font-normal text-gray-700 dark:text-gray-400"
