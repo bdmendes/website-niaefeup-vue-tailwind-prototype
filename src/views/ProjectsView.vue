@@ -1,11 +1,11 @@
 <script lang="ts">
-import PageTitle from '../components/PageTitle.vue';
-import ProjectsList from '../components/ProjectsList.vue';
+import PageTitle from "../components/PageTitle.vue";
+import ProjectsList from "../components/ProjectsList.vue";
 
 export default {
   components: {
     PageTitle,
-    ProjectsList
+    ProjectsList,
   },
 };
 </script>
